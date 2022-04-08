@@ -30,6 +30,15 @@ body {
     padding: 40px;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+li {
+    float: right;
+}
+
 a {
     text-decoration: none;
     color: #F5F5F5;
