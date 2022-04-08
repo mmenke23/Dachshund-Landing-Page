@@ -33,10 +33,12 @@ body {
 ul {
     list-style-type: none;
     margin: 0;
+    padding: 0;
 }
 
 li {
-    float: right;
+    float: left;
+    padding: 10px;
 }
 
 a {
@@ -51,7 +53,7 @@ a {
     align-items: center;
     flex-wrap: wrap;
     background-color: #05595B;
-    min-width: 300px;
+    min-width: 100%;
     min-height: 750px;
 }
 
@@ -79,9 +81,10 @@ a {
 .dog-img {
     height: auto;
     width: 100%;
-    max-width: 375px;
-    border-radius: 25px;  
-    padding: 10px;
+    max-width: 350px;
+    border-radius: 25px; 
+    margin-top: 10px;
+    margin-bottom: 10px; 
 }
 
 button {
@@ -99,6 +102,11 @@ button {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.heading h1 {
+    padding: 10px;
+    text-align: center;
 }
 
 .dog-pics {
@@ -132,6 +140,7 @@ figure figcaption {
     background-color: #05595B;
     justify-content: center;
     align-items: center;
+    padding: 10px;
 }
 
 .quote-item {
@@ -166,10 +175,9 @@ figure figcaption {
     align-items: center;
     background-color: #062C30;
     color: #F5F5F5;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 50px 10px;
     padding: 50px;
-    width: 90%;
+    width: 100%;
     max-width: 750px;
     border-radius: 10px;
 }
